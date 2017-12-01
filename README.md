@@ -34,7 +34,7 @@ The contents of the file should mirror the following:
     "twilio_key": "TWILIO_API_KEY",	
     "twilio_secret": "TWILIO_SECRET",	
     "twilio_number": "TWILIO_PHONE_NUMBER",	
-    "my_number": "YOUR_PHONE_NUMBER"	
+    "my_number": "YOUR_PHONE_NUMBER"
 }
 
 If you don't want to use the Twilio notifications, you can remove the code
