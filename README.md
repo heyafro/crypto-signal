@@ -28,15 +28,13 @@ To install the dependencies for this project, run "pip install -r requirements.t
 Add a secrets.json file to the root directory of your project.
 The contents of the file should mirror the following:
 
-```json
 {
-    "bittrex_key" : "BITTREX_API_KEY",
-    "bittrex_secret" : "BITTREX_SECRET",
+    "bittrex_key": "BITTREX_API_KEY",
+    "bittrex_secret": "BITTREX_SECRET",
     "twilio_key": "TWILIO_API_KEY",
     "twilio_secret": "TWILIO_SECRET",
     "twilio_number": "TWILIO_PHONE_NUMBER",
     "my_number": "YOUR_PHONE_NUMBER"
 }
-```
 
 If you don't want to use the Twilio notifications, you can remove the code
